@@ -36,7 +36,7 @@ input{
     width: 60vw;
     height: 5vh;
     border: 3px solid black;
-    font-size: 2vw;
+    font-size: 1vmax;
     border-radius: 50px;
     
 }
@@ -75,7 +75,7 @@ ol {
   
 li {
     /* margin-right: 100px; */
-    font-size:x-large;
+    font-size:5vmin;
     margin-bottom: 5px;
     padding: 0 1vw 0 1vw;
     display: flex;
@@ -85,6 +85,9 @@ li {
     width: 75vw;
     height: 3vh;
     border-radius: 50px;
+    font-size: clamp(1vh, 1.5vw, 9vh); /* Dynamically scales with viewport width */
+    max-width: 80%; /* Ensures it doesn't overflow */
+    word-wrap: break-word;
 
 
   }
