@@ -85,8 +85,8 @@ li {
     width: 75vw;
     height: 3vh;
     border-radius: 50px;
-    font-size: clamp(1vh, 1.5vw, 9vh); /* Dynamically scales with viewport width */
-    max-width: 80%; /* Ensures it doesn't overflow */
+    font-size: clamp(1vh, 1vw, 6vh); /* Dynamically scales with viewport width */
+    max-width: 100%; /* Ensures it doesn't overflow */
     word-wrap: break-word;
 
 
